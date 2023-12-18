@@ -1,0 +1,19 @@
+@use 'global' as g;
+@use '_variables' as var;
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size:var.$title;
+    color:g.$primary;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    user-select:none;
+}
+h2{
+    color:g.$danger;
+}

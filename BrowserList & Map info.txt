@@ -1,0 +1,12 @@
+1. Add or change Browserlist on package.jason in depending on your need...
+
+"browserslist": [
+    "defaults"(Best Practice)
+    "last 2 versions" 
+    "last 4 versions"
+    "last 7 versions"
+  ]
+
+Learn more about browserlist :https://github.com/browserslist/browserslist
+
+2.If Map Need for Sass or any Postcss plugins "Just remove the commands from the scripts on package.jason".
